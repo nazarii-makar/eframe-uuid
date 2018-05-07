@@ -1,0 +1,22 @@
+{
+    "name": "eframe/uuid",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nazarii Makar",
+            "email": "nazar.makar@magnise.com"
+        }
+    ],
+    "require": {
+        "ramsey/uuid": "~3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "EFrame\\Uuid\\": ""
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
+}
