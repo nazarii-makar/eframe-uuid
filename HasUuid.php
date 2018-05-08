@@ -18,7 +18,7 @@ trait HasUuid
      * This function overwrites the default boot static method of Eloquent models. It will hook
      * the creation event with a simple closure to insert the UUID
      */
-    public static function bootUuidModelTrait()
+    public static function bootHasUuid()
     {
         static::creating(function ($model) {
 
