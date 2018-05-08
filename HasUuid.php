@@ -4,7 +4,7 @@ namespace EFrame\Uuid;
 
 use Ramsey\Uuid\Uuid;
 
-class HasUuid
+trait HasUuid
 {
     /**
      * @return bool
